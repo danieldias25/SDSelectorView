@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDSelectorView_Example' do
+  pod 'SDSelectorView', :path => '../'
+
+  target 'SDSelectorView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
