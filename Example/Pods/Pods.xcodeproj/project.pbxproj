@@ -11,8 +11,9 @@
 		88B48DDE1FD95F5C58FAE4193951406A /* Pods-SDSelectorView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4842CD87A92C0C732D75AEFDAE6432F0 /* Pods-SDSelectorView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		896ECADEAFF506B9EE0A289840BBAB70 /* SDSelectorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2848C8598921117C2E4A2ED26A84B3 /* SDSelectorView-dummy.m */; };
 		A1AEE6BDBA2936D867E8E24452590C95 /* Pods-SDSelectorView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A2F729C5C43C89F257369B5BE92D8E /* Pods-SDSelectorView_Tests-dummy.m */; };
+		A725432A1FA76F1800F096DE /* SDPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72543291FA76F1800F096DE /* SDPresentationView.swift */; };
 		AE5BE8BC5A696653D5C090BC06C18BC1 /* Pods-SDSelectorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D46DB5A9EA214364E43C12D8302E3CCA /* Pods-SDSelectorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6A835EAA4AB2EAB309549BD64A3B505 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943003D6F7C9F06515874FB73CC2C9D /* ReplaceMe.swift */; };
+		C6A835EAA4AB2EAB309549BD64A3B505 /* SDSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D943003D6F7C9F06515874FB73CC2C9D /* SDSelectorView.swift */; };
 		E9E01E59C90C1D46D320CDDB252F8D1B /* Pods-SDSelectorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3067A024357E165C9179411949FF3894 /* Pods-SDSelectorView_Example-dummy.m */; };
 		EE1EE52E093450B69318F4B303A788C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EF1E405A8DDB3D2016FDE3A89B9CADC6 /* SDSelectorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 289605D991DA9B436103AF156FBFAEE4 /* SDSelectorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,13 +33,13 @@
 /* Begin PBXFileReference section */
 		09E1BB5792D30DB8C9AA4D4717CF4922 /* Pods-SDSelectorView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDSelectorView_Tests-resources.sh"; sourceTree = "<group>"; };
 		0A252AE185C2405684525CF74B34CEF1 /* Pods-SDSelectorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDSelectorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		10519D404F868BA19B0303706CA2BAC6 /* Pods_SDSelectorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDSelectorView_Tests.framework; path = "Pods-SDSelectorView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10519D404F868BA19B0303706CA2BAC6 /* Pods_SDSelectorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDSelectorView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A524B1CF907C61976960233817D95E6 /* Pods-SDSelectorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDSelectorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1BB95F77559014A00F1CB3FD5F3CFC96 /* Pods-SDSelectorView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDSelectorView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2280218A4E13CC18A50D30C342A148CA /* SDSelectorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDSelectorView.framework; path = SDSelectorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2280218A4E13CC18A50D30C342A148CA /* SDSelectorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDSelectorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		289605D991DA9B436103AF156FBFAEE4 /* SDSelectorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDSelectorView-umbrella.h"; sourceTree = "<group>"; };
 		2D62699647B81F84036EA90439E23F10 /* Pods-SDSelectorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDSelectorView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		303E26870C6D728170A9F890EA46EB77 /* SDSelectorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDSelectorView.modulemap; sourceTree = "<group>"; };
+		303E26870C6D728170A9F890EA46EB77 /* SDSelectorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDSelectorView.modulemap; sourceTree = "<group>"; };
 		3067A024357E165C9179411949FF3894 /* Pods-SDSelectorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDSelectorView_Example-dummy.m"; sourceTree = "<group>"; };
 		3AD5C7D49811B6466A2CB3C4BDBF960C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4842CD87A92C0C732D75AEFDAE6432F0 /* Pods-SDSelectorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDSelectorView_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -50,16 +51,17 @@
 		74AFC2C02AC653DBF3CE076FA698FA49 /* SDSelectorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDSelectorView-prefix.pch"; sourceTree = "<group>"; };
 		783628D631DD2D7BE204E50268F4BB30 /* Pods-SDSelectorView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDSelectorView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7B2848C8598921117C2E4A2ED26A84B3 /* SDSelectorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDSelectorView-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C3296A74F86E899B7B23802E14BBA74 /* Pods-SDSelectorView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDSelectorView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8E96B9525545A2C4F67527877A6D9B9 /* Pods-SDSelectorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDSelectorView_Example.modulemap"; sourceTree = "<group>"; };
-		B38C5BE93476C38A644DE6C2ECD58F54 /* Pods_SDSelectorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDSelectorView_Example.framework; path = "Pods-SDSelectorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72543291FA76F1800F096DE /* SDPresentationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDPresentationView.swift; path = SDSelectorView/Classes/SDPresentationView.swift; sourceTree = "<group>"; };
+		A8E96B9525545A2C4F67527877A6D9B9 /* Pods-SDSelectorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SDSelectorView_Example.modulemap"; sourceTree = "<group>"; };
+		B38C5BE93476C38A644DE6C2ECD58F54 /* Pods_SDSelectorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDSelectorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46DB5A9EA214364E43C12D8302E3CCA /* Pods-SDSelectorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDSelectorView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D7D211C1A2D3C8A18950B23F852A2EE8 /* Pods-SDSelectorView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDSelectorView_Example-resources.sh"; sourceTree = "<group>"; };
 		D870864F83595B11FD45E2C82D88B5A7 /* Pods-SDSelectorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDSelectorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D943003D6F7C9F06515874FB73CC2C9D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SDSelectorView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D943003D6F7C9F06515874FB73CC2C9D /* SDSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDSelectorView.swift; path = SDSelectorView/Classes/SDSelectorView.swift; sourceTree = "<group>"; };
 		D9E6922376E8299BC3A715733BF8C323 /* Pods-SDSelectorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDSelectorView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E0474D427808893386BF711803503C09 /* Pods-SDSelectorView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SDSelectorView_Tests.modulemap"; sourceTree = "<group>"; };
+		E0474D427808893386BF711803503C09 /* Pods-SDSelectorView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SDSelectorView_Tests.modulemap"; sourceTree = "<group>"; };
 		E8548947C879C841C5B2741A578A6D5A /* Pods-SDSelectorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDSelectorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED021A898FA1FFFBF1E6432E850B5589 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +107,7 @@
 		3147DF623DF00D187F9B271FD40A8077 /* SDSelectorView */ = {
 			isa = PBXGroup;
 			children = (
-				D943003D6F7C9F06515874FB73CC2C9D /* ReplaceMe.swift */,
+				A72543281FA76DF600F096DE /* SDSelectorClasses */,
 				A626479D530CB69127D573D19634E0DD /* Support Files */,
 			);
 			name = SDSelectorView;
@@ -179,6 +181,15 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SDSelectorView";
+			sourceTree = "<group>";
+		};
+		A72543281FA76DF600F096DE /* SDSelectorClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D943003D6F7C9F06515874FB73CC2C9D /* SDSelectorView.swift */,
+				A72543291FA76F1800F096DE /* SDPresentationView.swift */,
+			);
+			name = SDSelectorClasses;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -296,6 +307,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					D9AC8822E5DEAA42560F2FA709099364 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A835EAA4AB2EAB309549BD64A3B505 /* ReplaceMe.swift in Sources */,
+				C6A835EAA4AB2EAB309549BD64A3B505 /* SDSelectorView.swift in Sources */,
 				896ECADEAFF506B9EE0A289840BBAB70 /* SDSelectorView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E01E59C90C1D46D320CDDB252F8D1B /* Pods-SDSelectorView_Example-dummy.m in Sources */,
+				A725432A1FA76F1800F096DE /* SDPresentationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9E6922376E8299BC3A715733BF8C323 /* Pods-SDSelectorView_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -582,6 +600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6DB7A004115D0D02A54B52D0203EA3BC /* Pods-SDSelectorView_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
