@@ -1,0 +1,6 @@
+framework module Pods_SDSelectorView_Example {
+  umbrella header "Pods-SDSelectorView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
