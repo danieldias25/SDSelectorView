@@ -20,6 +20,34 @@ pod 'SDSelectorView'
 
 or just copy and paste  **SDPresentationView.swift** and **SDSelectorView.swift** files.
 
+
+## Usage
+
+**SDSelectorView** just need a couple of lines to be used. Add a view in you storyboard and make it be a subclass of **SDSelectorView**
+
+@IBOutlet weak var mySelectorView: SDSelectorView!
+
+
+Add the line below to configure the selector gallery.
+
+  self.mySelectorView.configSDSelectorWith(imageSize: <CGSize>, spacedBy: <CGFloat>, withImages: <[UIImage]>)
+
+
+And you have delegate methods to help you when user interacts with your gallery.
+Add **SDSelectorViewDelegate** to your class and the lines below.
+
+  self.mySelectorView.SDdelegate = self
+
+// MARK: Delegate methods
+
+    func didCangedIndex(index: Int) {
+    }
+    
+    func didSelectView(index: Int) {
+    }
+
+
+
 ## Author
 
 danieldias25, daniel.dias.e@gmail.com
