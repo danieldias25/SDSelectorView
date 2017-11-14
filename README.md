@@ -7,13 +7,7 @@
 
 ## Description
 
-SDSelectorView aims to improve application aesthetics by providing a horizontal scroll and easy-to-implement image gallery.
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+SDSelectorView aims to improve applications aesthetics by providing a horizontal scroll and easy-to-implement image gallery.
 
 ## Installation
 
@@ -23,6 +17,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SDSelectorView'
 ```
+
+or just copy and paste  **SDPresentationView.swift** and **SDSelectorView.swift** files.
 
 ## Author
 
