@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SDSelectorView.svg?style=flat)](http://cocoapods.org/pods/SDSelectorView)
 [![Platform](https://img.shields.io/cocoapods/p/SDSelectorView.svg?style=flat)](http://cocoapods.org/pods/SDSelectorView)
 
+## Description
+
+SDSelectorView aims to improve application aesthetics by providing a horizontal scroll and easy-to-implement image gallery.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
